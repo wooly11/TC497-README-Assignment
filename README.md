@@ -74,7 +74,7 @@ npm run start-frontend   # React app (port 3000)
 - **Styling**: Custom CSS with modern design
 
 ### Architecture Diagram
-![Architecture Diagram](https://github.com/wooly11/TC497-README-Assignment/blob/main/Architecture%20Diagram.png)
+![Architecture Diagram](https://github.com/wooly11/TC497-README-Assignment/blob/main/Diagram.png)
 
 ### File Descriptions
 ```
