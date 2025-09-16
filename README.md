@@ -8,7 +8,7 @@ This is a web application for tracking, analyzing, and comparing NHL hockey play
 
 - [Quickstart and Installation](#quickstart-and-installation)
 - [Features](#features)
-- [How to Use](#how-to-use)
+- [Usage Examples](#usage-examples)
 - [Project Structure](#project-structure)
 - [FAQ](#faq)
 ## Quickstart and Installation
