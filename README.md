@@ -1,6 +1,14 @@
 
 ![Banner](./github-header-banner.png)
 
+![React](https://img.shields.io/badge/React-19-blue)
+![Flask](https://img.shields.io/badge/Flask-Backend-green)
+![Python](https://img.shields.io/badge/Python-3.11-yellow)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blueviolet)
+![Node.js](https://img.shields.io/badge/Node.js-16+-brightgreen)
+![Status](https://img.shields.io/badge/Status-Inactive-red)
+![Sport](https://img.shields.io/badge/Sport-Hockey-%2300bfff)
+
 This is a web application for tracking, analyzing, and comparing NHL hockey players and teams, built with React frontend and Flask backend. The application was designed to be used by my team and I to assist in making data-driven decisions regarding player and team evaluation.
 
 
