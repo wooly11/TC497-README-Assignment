@@ -1,5 +1,5 @@
 
-# 🏒 NHL Player Analysis Tool 📊
+![Banner](./github-header-banner.png)
 
 This is a web application for tracking, analyzing, and comparing NHL hockey players and teams, built with React frontend and Flask backend. The application was designed to be used by my team and I to assist in making data-driven decisions regarding player and team evaluation.
 
