@@ -1,11 +1,11 @@
 
 ![Banner](./github-header-banner.png)
 
-![React](https://img.shields.io/badge/React-19-blue)
-![Flask](https://img.shields.io/badge/Flask-Backend-green)
-![Python](https://img.shields.io/badge/Python-3.11-yellow)
-![SQLite](https://img.shields.io/badge/SQLite-Database-blueviolet)
-![Node.js](https://img.shields.io/badge/Node.js-16+-brightgreen)
+![React](https://img.shields.io/badge/Frontend-React19-blue)
+![Flask](https://img.shields.io/badge/Backend-Flask-green)
+![Python](https://img.shields.io/badge/Language-Python3.11-yellow)
+![SQLite](https://img.shields.io/badge/Database-SQLite-blueviolet)
+![Node.js](https://img.shields.io/badge/Integration-Node.js16+-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Inactive-red)
 ![Sport](https://img.shields.io/badge/Sport-Hockey-%2300bfff)
 
