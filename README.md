@@ -6,11 +6,22 @@ This is a web application for tracking, analyzing, and comparing NHL hockey play
 
 ## Table of Contents
 
-- [Quickstart and Installation](#quickstart-and-installation)
 - [Features](#features)
+- [Quickstart and Installation](#quickstart-and-installation)
 - [Usage Examples](#usage-examples)
 - [Project Structure](#project-structure)
 - [FAQ](#faq)
+
+
+## Features
+
+- **View All Players** - use card-based layout to view players and teams at a glance
+- **In-Depth View** - select a player or team to view more advanced stats
+- **Compare** - Compare player and team statistics one on one to determine superior performance
+- **Add New Players** - As new players enter the league, you can update your data sets with name, team, position, and stats
+- **Real-time Updates** - when adding new players or updating stats
+
+
 ## Quickstart and Installation
 
 ### Prerequisites
@@ -50,21 +61,18 @@ npm run start-frontend   # React app (port 3000)
 ### 4. Open Your Browser
 
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:5001
-## Features
+- Backend API: http://localhost:5000
 
-- **View All Players** - use card-based layout to view players and teams at a glance
-- **In-Depth View** - select a player or team to view more advanced stats
-- **Compare** - Compare player and team statistics one on one to determine superior performance
-- **Add New Players** - As new players enter the league, you can update your data sets with name, team, position, and stats
-- **Real-time Updates** - when adding new players or updating stats
-## Usage Examples
-
-### Launch App
+### Use the above commands to launch the app in one terminal like this:
 ![Launch App](https://github.com/wooly11/TC497-README-Assignment/blob/main/run_app.gif)
+
+
+## Usage Example
 
 ### Add a Player
 ![Add a Player](https://github.com/wooly11/TC497-README-Assignment/blob/main/add_player.gif)
+
+
 ## Project Structure
 
 ### Tech Stack
@@ -75,6 +83,8 @@ npm run start-frontend   # React app (port 3000)
 
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/wooly11/TC497-README-Assignment/blob/main/Diagram.png)
+
+TODO: Description needed!!
 
 ### File Descriptions
 ```
@@ -90,6 +100,8 @@ hockey-analysis/
     │   └── App.css       # Styling
     └── package.json      # Frontend dependencies
 ```
+
+
 ## FAQ
 
 #### What are my API endpoints?
@@ -107,5 +119,4 @@ npm run init-db
 Make sure ports 3000 and 5000 are available and not already in use. Switch to available port if necessary.
 
 #### Why am I getting CORS errors?
-The backend is configured to allow requests from localhost:3000
-
+The backend is configured to allow requests from localhost:3000. If your frontend uses a different port or domain, update the CORS settings in app.py.
