@@ -92,7 +92,19 @@ npm run start-frontend   # React app (port 3000)
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/wooly11/TC497-README-Assignment/blob/main/Diagram2.png)
 
-TODO: Description needed!!
+The system is a full-stack web app with three main parts: a React frontend, a Flask backend, and an SQLite database.
+
+User → Frontend (React)
+The user interacts with the app through a web browser. React handles all UI screens—dashboard, comparisons, detailed stats, and a form to add players. State is managed through React hooks/context, and all data requests go through an API service layer.
+
+Frontend → Backend (Flask)
+React sends HTTP requests to the Flask server. Flask uses CORS to allow the frontend to connect. The server exposes three main API routes: GET /health, GET /players, and POST /players
+
+Backend → Data Layer (SQLite)
+Flask uses a SQLite connector to run SQL queries on the players.db database. A setup script (init_db.py) creates or resets the database when needed.
+
+Overall Flow
+User ➝ React UI ➝ Flask API ➝ SQLite database, with JSON responses sent back up the chain.
 
 ### File Descriptions
 ```
